@@ -11,7 +11,7 @@ pipeline {
                     // trusted users, regular users
                     def total = num * 10 + 7
                     println str
-                    println total
+                    println "total: " + total
                 '''
             }
         }
